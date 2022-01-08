@@ -1,0 +1,15 @@
+﻿@model WallStreetBets_Object
+
+@{
+    ViewData["Title"] = "TickerInfo";
+}
+
+<h1>TickerInfo</h1>
+
+<b>Ticker:</b> @Model.ticker
+<br />
+<b>Sentiment:</b> @Model.sentiment
+<br />
+<b>Sentiment Score:</b> @Model.sentiment_score
+<br />
+<b>Number of Comments:</b> @Model.no_of_comments
